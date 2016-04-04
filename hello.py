@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return 'これは Index ページです'
+  return 'あああこれは Index ページです'
 
 @app.route('/hello')
 def hello():
